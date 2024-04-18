@@ -89,7 +89,17 @@ namespace POS
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-
+          if (MainClass.isValidUser(userTextBox1.Text, passwordTextBox3.Text) == false)
+            {
+                guna2MessageDialog1.Show("Invalid Username or Password");
+                return;
+            }
+          else
+            {
+                this.Hide();
+                formMain frm = new formMain();
+                frm.Show();
+            }
         }
     }
 }

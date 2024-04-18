@@ -76,6 +76,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include=".editorconfig" />
     <None Include="packages.config" />
@@ -84,6 +85,11 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <Compile Include="Properties\Resources.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -100,34 +106,13 @@
     <None Include="Resources\padlock.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\restaurant.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\balanced-diet.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\house.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\home.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\package.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\kitchen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Home_fill.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Home_fill1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Home_fill11.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\categoriesfill.png" />
@@ -203,6 +188,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\homewhite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\padlock1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

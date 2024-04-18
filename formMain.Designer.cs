@@ -39,6 +39,7 @@
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2ShadowPanel3 = new Guna.UI2.WinForms.Guna2ShadowPanel();
             this.guna2ShadowPanel1 = new Guna.UI2.WinForms.Guna2ShadowPanel();
+            this.Rstrntmngmnt = new System.Windows.Forms.Label();
             this.ReportButton = new Guna.UI2.WinForms.Guna2Button();
             this.SettingsButton = new Guna.UI2.WinForms.Guna2Button();
             this.KitchenButton = new Guna.UI2.WinForms.Guna2Button();
@@ -48,7 +49,6 @@
             this.ProdButton = new Guna.UI2.WinForms.Guna2Button();
             this.HomeButton = new Guna.UI2.WinForms.Guna2Button();
             this.CategButton = new Guna.UI2.WinForms.Guna2Button();
-            this.Rstrntmngmnt = new System.Windows.Forms.Label();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2ShadowPanel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -69,11 +69,12 @@
             this.guna2ShadowPanel2.Controls.Add(this.bttnmin);
             this.guna2ShadowPanel2.Controls.Add(this.bttnmax);
             this.guna2ShadowPanel2.Controls.Add(this.bttnexit);
+            this.guna2ShadowPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(239)))), ((int)(((byte)(218)))));
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(167, 0);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(172, 0);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(1204, 53);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(1200, 53);
             this.guna2ShadowPanel2.TabIndex = 1;
             this.guna2ShadowPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel2_Paint);
             // 
@@ -97,7 +98,7 @@
             this.bttnmin.CustomClick = true;
             this.bttnmin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.bttnmin.IconColor = System.Drawing.Color.White;
-            this.bttnmin.Location = new System.Drawing.Point(1041, 12);
+            this.bttnmin.Location = new System.Drawing.Point(1037, 12);
             this.bttnmin.Name = "bttnmin";
             this.bttnmin.Size = new System.Drawing.Size(39, 29);
             this.bttnmin.TabIndex = 5;
@@ -112,7 +113,7 @@
             this.bttnmax.CustomClick = true;
             this.bttnmax.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.bttnmax.IconColor = System.Drawing.Color.White;
-            this.bttnmax.Location = new System.Drawing.Point(1097, 12);
+            this.bttnmax.Location = new System.Drawing.Point(1093, 12);
             this.bttnmax.Name = "bttnmax";
             this.bttnmax.Size = new System.Drawing.Size(39, 29);
             this.bttnmax.TabIndex = 4;
@@ -126,7 +127,7 @@
             this.bttnexit.CustomClick = true;
             this.bttnexit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.bttnexit.IconColor = System.Drawing.Color.White;
-            this.bttnexit.Location = new System.Drawing.Point(1152, 12);
+            this.bttnexit.Location = new System.Drawing.Point(1148, 12);
             this.bttnexit.Name = "bttnexit";
             this.bttnexit.Size = new System.Drawing.Size(39, 29);
             this.bttnexit.TabIndex = 3;
@@ -137,20 +138,21 @@
             this.guna2Panel3.Controls.Add(this.guna2ShadowPanel3);
             this.guna2Panel3.Controls.Add(this.guna2ShadowPanel2);
             this.guna2Panel3.Controls.Add(this.guna2ShadowPanel1);
-            this.guna2Panel3.Location = new System.Drawing.Point(1, -2);
+            this.guna2Panel3.Location = new System.Drawing.Point(-3, -4);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1400, 695);
+            this.guna2Panel3.Size = new System.Drawing.Size(1372, 680);
             this.guna2Panel3.TabIndex = 1;
             this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
             // 
             // guna2ShadowPanel3
             // 
             this.guna2ShadowPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.guna2ShadowPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2ShadowPanel3.FillColor = System.Drawing.Color.White;
-            this.guna2ShadowPanel3.Location = new System.Drawing.Point(178, 59);
+            this.guna2ShadowPanel3.Location = new System.Drawing.Point(172, 53);
             this.guna2ShadowPanel3.Name = "guna2ShadowPanel3";
             this.guna2ShadowPanel3.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel3.Size = new System.Drawing.Size(1193, 614);
+            this.guna2ShadowPanel3.Size = new System.Drawing.Size(1200, 627);
             this.guna2ShadowPanel3.TabIndex = 2;
             this.guna2ShadowPanel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel3_Paint);
             // 
@@ -168,17 +170,31 @@
             this.guna2ShadowPanel1.Controls.Add(this.CategButton);
             this.guna2ShadowPanel1.Controls.Add(this.Rstrntmngmnt);
             this.guna2ShadowPanel1.Controls.Add(this.guna2PictureBox1);
+            this.guna2ShadowPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(217)))), ((int)(((byte)(194)))));
             this.guna2ShadowPanel1.Location = new System.Drawing.Point(0, 0);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(172, 695);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(172, 680);
             this.guna2ShadowPanel1.TabIndex = 0;
             this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
+            // 
+            // Rstrntmngmnt
+            // 
+            this.Rstrntmngmnt.Font = new System.Drawing.Font("Poppins SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Rstrntmngmnt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Rstrntmngmnt.Location = new System.Drawing.Point(-2, 105);
+            this.Rstrntmngmnt.Name = "Rstrntmngmnt";
+            this.Rstrntmngmnt.Size = new System.Drawing.Size(166, 31);
+            this.Rstrntmngmnt.TabIndex = 1;
+            this.Rstrntmngmnt.Text = "Tummy Time";
+            this.Rstrntmngmnt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Rstrntmngmnt.Click += new System.EventHandler(this.label1_Click);
             // 
             // ReportButton
             // 
             this.ReportButton.BorderRadius = 20;
+            this.ReportButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.ReportButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.ReportButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.ReportButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image")));
@@ -195,7 +211,7 @@
             this.ReportButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ReportButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.ReportButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.ReportButton.Location = new System.Drawing.Point(23, 557);
+            this.ReportButton.Location = new System.Drawing.Point(23, 530);
             this.ReportButton.Name = "ReportButton";
             this.ReportButton.Size = new System.Drawing.Size(141, 47);
             this.ReportButton.TabIndex = 16;
@@ -206,6 +222,7 @@
             // SettingsButton
             // 
             this.SettingsButton.BorderRadius = 20;
+            this.SettingsButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.SettingsButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.SettingsButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.SettingsButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image1")));
@@ -222,7 +239,7 @@
             this.SettingsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.SettingsButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.SettingsButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.SettingsButton.Location = new System.Drawing.Point(23, 612);
+            this.SettingsButton.Location = new System.Drawing.Point(23, 583);
             this.SettingsButton.Name = "SettingsButton";
             this.SettingsButton.Size = new System.Drawing.Size(141, 47);
             this.SettingsButton.TabIndex = 15;
@@ -233,6 +250,7 @@
             // KitchenButton
             // 
             this.KitchenButton.BorderRadius = 20;
+            this.KitchenButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.KitchenButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.KitchenButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.KitchenButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image2")));
@@ -249,7 +267,7 @@
             this.KitchenButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.KitchenButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.KitchenButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.KitchenButton.Location = new System.Drawing.Point(23, 499);
+            this.KitchenButton.Location = new System.Drawing.Point(23, 477);
             this.KitchenButton.Name = "KitchenButton";
             this.KitchenButton.Size = new System.Drawing.Size(141, 47);
             this.KitchenButton.TabIndex = 14;
@@ -260,6 +278,7 @@
             // POSButton
             // 
             this.POSButton.BorderRadius = 20;
+            this.POSButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.POSButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.POSButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.POSButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image3")));
@@ -276,7 +295,7 @@
             this.POSButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.POSButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.POSButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.POSButton.Location = new System.Drawing.Point(24, 442);
+            this.POSButton.Location = new System.Drawing.Point(23, 424);
             this.POSButton.Name = "POSButton";
             this.POSButton.Size = new System.Drawing.Size(141, 47);
             this.POSButton.TabIndex = 13;
@@ -287,6 +306,7 @@
             // StaffButton
             // 
             this.StaffButton.BorderRadius = 20;
+            this.StaffButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.StaffButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.StaffButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.StaffButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image4")));
@@ -303,7 +323,7 @@
             this.StaffButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.StaffButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.StaffButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.StaffButton.Location = new System.Drawing.Point(28, 386);
+            this.StaffButton.Location = new System.Drawing.Point(28, 371);
             this.StaffButton.Name = "StaffButton";
             this.StaffButton.Size = new System.Drawing.Size(136, 47);
             this.StaffButton.TabIndex = 12;
@@ -314,6 +334,7 @@
             // TableButton
             // 
             this.TableButton.BorderRadius = 20;
+            this.TableButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.TableButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.TableButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.TableButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image5")));
@@ -330,7 +351,7 @@
             this.TableButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.TableButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.TableButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.TableButton.Location = new System.Drawing.Point(28, 331);
+            this.TableButton.Location = new System.Drawing.Point(28, 318);
             this.TableButton.Name = "TableButton";
             this.TableButton.Size = new System.Drawing.Size(136, 47);
             this.TableButton.TabIndex = 11;
@@ -341,6 +362,7 @@
             // ProdButton
             // 
             this.ProdButton.BorderRadius = 20;
+            this.ProdButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.ProdButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.ProdButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.ProdButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image6")));
@@ -357,7 +379,7 @@
             this.ProdButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ProdButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.ProdButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.ProdButton.Location = new System.Drawing.Point(28, 275);
+            this.ProdButton.Location = new System.Drawing.Point(28, 265);
             this.ProdButton.Name = "ProdButton";
             this.ProdButton.Size = new System.Drawing.Size(136, 47);
             this.ProdButton.TabIndex = 10;
@@ -369,6 +391,7 @@
             // 
             this.HomeButton.AllowDrop = true;
             this.HomeButton.BorderRadius = 20;
+            this.HomeButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.HomeButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.HomeButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.HomeButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image7")));
@@ -397,6 +420,7 @@
             // CategButton
             // 
             this.CategButton.BorderRadius = 20;
+            this.CategButton.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
             this.CategButton.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(175)))), ((int)(((byte)(130)))), ((int)(((byte)(96)))));
             this.CategButton.CheckedState.ForeColor = System.Drawing.Color.White;
             this.CategButton.CheckedState.Image = ((System.Drawing.Image)(resources.GetObject("resource.Image8")));
@@ -413,7 +437,7 @@
             this.CategButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.CategButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.CategButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.CategButton.Location = new System.Drawing.Point(28, 218);
+            this.CategButton.Location = new System.Drawing.Point(28, 212);
             this.CategButton.Name = "CategButton";
             this.CategButton.Size = new System.Drawing.Size(136, 47);
             this.CategButton.TabIndex = 3;
@@ -421,18 +445,6 @@
             this.CategButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.CategButton.TextOffset = new System.Drawing.Point(10, 2);
             this.CategButton.Click += new System.EventHandler(this.guna2Button2_Click);
-            // 
-            // Rstrntmngmnt
-            // 
-            this.Rstrntmngmnt.Font = new System.Drawing.Font("Poppins SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Rstrntmngmnt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Rstrntmngmnt.Location = new System.Drawing.Point(-2, 105);
-            this.Rstrntmngmnt.Name = "Rstrntmngmnt";
-            this.Rstrntmngmnt.Size = new System.Drawing.Size(166, 31);
-            this.Rstrntmngmnt.TabIndex = 1;
-            this.Rstrntmngmnt.Text = "Tummy Time";
-            this.Rstrntmngmnt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Rstrntmngmnt.Click += new System.EventHandler(this.label1_Click);
             // 
             // guna2PictureBox1
             // 
@@ -457,8 +469,8 @@
             this.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formMain";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "formMain";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.formMain_Load);
             this.guna2ShadowPanel2.ResumeLayout(false);
             this.guna2ShadowPanel2.PerformLayout();
