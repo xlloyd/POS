@@ -42,5 +42,10 @@ namespace POS
         {
 
         }
+
+        private void FormCategoryAdd_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

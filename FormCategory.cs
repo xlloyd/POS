@@ -16,5 +16,10 @@ namespace POS
         {
             InitializeComponent();
         }
+
+        private void FormCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
