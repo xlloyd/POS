@@ -64,6 +64,12 @@
     <Compile Include="FormCategoryAdd.Designer.cs">
       <DependentUpon>FormCategoryAdd.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHome.Designer.cs">
+      <DependentUpon>FormHome.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     <EmbeddedResource Include="FormCategoryAdd.resx">
       <DependentUpon>FormCategoryAdd.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHome.resx">
+      <DependentUpon>FormHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlogin.resx">
       <DependentUpon>Formlogin.cs</DependentUpon>

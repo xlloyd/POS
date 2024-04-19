@@ -47,5 +47,10 @@ namespace POS
         {
 
         }
+         public int id = 0;
+        private void guna2Button2Save_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

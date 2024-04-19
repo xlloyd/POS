@@ -17,9 +17,18 @@ namespace POS
             InitializeComponent();
         }
 
+        public void AddControls(Form f)
+        {
+            ControlsPanel.Controls.Clear();
+            f.Dock = DockStyle.Fill;
+            f.TopLevel = false;
+            ControlsPanel.Controls.Add(f);
+            f.Show();
+        }
+
         private void formMain_Load(object sender, EventArgs e)
         {
-
+            lbluser.Text = MainClass.USER;
         }
 
         private void bttnexit_Click(object sender, EventArgs e)
@@ -74,7 +83,7 @@ namespace POS
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            AddControls(new FormHome());
         }
 
         private void guna2Button7_Click(object sender, EventArgs e)

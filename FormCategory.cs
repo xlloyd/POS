@@ -17,7 +17,27 @@ namespace POS
             InitializeComponent();
         }
 
+        public void GetData()
+        {
+            string qry = "Select * From category";
+            ListBox lb = new ListBox();
+            lb.Items.Add(dgvid);
+            lb.Items.Add(dgvName);
+
+            MainClass.LoadData(qry, guna2DataGridView1, lb);
+        }
+
         private void FormCategory_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public virtual void btnAdd_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public virtual void txtSearch_TextChanged(object sender, EventArgs e)
         {
 
         }
