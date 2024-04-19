@@ -67,7 +67,7 @@
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(44)))), ((int)(((byte)(43)))));
             this.label3.Location = new System.Drawing.Point(41, 65);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 34);
+            this.label3.Size = new System.Drawing.Size(96, 42);
             this.label3.TabIndex = 3;
             this.label3.Text = "LOG IN";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -113,7 +113,7 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(151, 76);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(0, 23);
+            this.label4.Size = new System.Drawing.Size(0, 30);
             this.label4.TabIndex = 4;
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
@@ -205,7 +205,7 @@
             // 
             // Formlogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 23F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(874, 618);
             this.Controls.Add(this.bttnexit);

@@ -12,10 +12,17 @@ namespace POS
 {
     public partial class Formlogin : Form
     {
+        [System.Runtime.InteropServices.DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]      //ROUND CORNER
+        private static extern IntPtr CreateRoundRectRgn(int nLeftRect, int nTopRect, int nRightRect, int nBottomRect, int nWidthEllipse, int nHeightEllipse);
+
         public Formlogin()
         {
             InitializeComponent();
+            
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 30, 30));
         }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
