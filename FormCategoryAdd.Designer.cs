@@ -139,7 +139,7 @@
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2PictureBox1.Image = global::POS.Properties.Resources.categorieswhite;
+            this.guna2PictureBox1.Image = global::POS.Properties.Resources.categorieswhite1;
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(54, 12);
             this.guna2PictureBox1.Name = "guna2PictureBox1";

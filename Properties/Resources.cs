@@ -1,6 +1,6 @@
 ﻿namespace POS.Properties
 {
-    internal class Resources
+    internal class Resource
     {
     }
 }
