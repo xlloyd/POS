@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,7 +51,40 @@ namespace POS
          public int id = 0;
         private void guna2Button2Save_Click(object sender, EventArgs e)
         {
+            string qry = "";
+
+            if (id == 0)
+            {
+                qry = "Insert into category Values(@Name)";
+            }
+            else
+            {
+                qry = "Update category Set catName = @Name where CatID = @id ";
+            }
+
+            Hashtable ht = new Hashtable();
+            ht.Add("@id", id);
+            ht.Add("@Name", txtName.Text);
+
+            if (MainClass.SQl(qry, ht) > 0)
+            {
+                MessageBox.Show("Save successfully...");
+                id = 0;
+                txtName.Text = "";
+                txtName.Focus();
+            }
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
 
         }
+
+        public void guna2Button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
+   
 }
+

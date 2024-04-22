@@ -72,11 +72,10 @@
             this.guna2ShadowPanel2.Controls.Add(this.bttnexit);
             this.guna2ShadowPanel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2ShadowPanel2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(242)))), ((int)(((byte)(239)))), ((int)(((byte)(218)))));
-            this.guna2ShadowPanel2.Location = new System.Drawing.Point(248, 0);
-            this.guna2ShadowPanel2.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2ShadowPanel2.Location = new System.Drawing.Point(165, 0);
             this.guna2ShadowPanel2.Name = "guna2ShadowPanel2";
             this.guna2ShadowPanel2.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel2.Size = new System.Drawing.Size(1630, 79);
+            this.guna2ShadowPanel2.Size = new System.Drawing.Size(1087, 53);
             this.guna2ShadowPanel2.TabIndex = 1;
             this.guna2ShadowPanel2.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel2_Paint);
             // 
@@ -84,10 +83,9 @@
             // 
             this.lbluser.AutoSize = true;
             this.lbluser.Font = new System.Drawing.Font("Poppins SemiBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbluser.Location = new System.Drawing.Point(23, 34);
-            this.lbluser.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.lbluser.Location = new System.Drawing.Point(15, 23);
             this.lbluser.Name = "lbluser";
-            this.lbluser.Size = new System.Drawing.Size(88, 42);
+            this.lbluser.Size = new System.Drawing.Size(58, 28);
             this.lbluser.TabIndex = 6;
             this.lbluser.Text = "label1";
             this.lbluser.Click += new System.EventHandler(this.lbluser_Click);
@@ -101,10 +99,9 @@
             this.bttnmin.CustomClick = true;
             this.bttnmin.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.bttnmin.IconColor = System.Drawing.Color.White;
-            this.bttnmin.Location = new System.Drawing.Point(1201, 20);
-            this.bttnmin.Margin = new System.Windows.Forms.Padding(5);
+            this.bttnmin.Location = new System.Drawing.Point(936, 13);
             this.bttnmin.Name = "bttnmin";
-            this.bttnmin.Size = new System.Drawing.Size(59, 43);
+            this.bttnmin.Size = new System.Drawing.Size(39, 29);
             this.bttnmin.TabIndex = 5;
             this.bttnmin.Click += new System.EventHandler(this.bttnmin_Click);
             // 
@@ -117,10 +114,9 @@
             this.bttnmax.CustomClick = true;
             this.bttnmax.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.bttnmax.IconColor = System.Drawing.Color.White;
-            this.bttnmax.Location = new System.Drawing.Point(1285, 20);
-            this.bttnmax.Margin = new System.Windows.Forms.Padding(5);
+            this.bttnmax.Location = new System.Drawing.Point(981, 13);
             this.bttnmax.Name = "bttnmax";
-            this.bttnmax.Size = new System.Drawing.Size(59, 43);
+            this.bttnmax.Size = new System.Drawing.Size(39, 29);
             this.bttnmax.TabIndex = 4;
             this.bttnmax.Click += new System.EventHandler(this.bttnmax_Click);
             // 
@@ -132,10 +128,9 @@
             this.bttnexit.CustomClick = true;
             this.bttnexit.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(61)))), ((int)(((byte)(59)))));
             this.bttnexit.IconColor = System.Drawing.Color.White;
-            this.bttnexit.Location = new System.Drawing.Point(1368, 20);
-            this.bttnexit.Margin = new System.Windows.Forms.Padding(5);
+            this.bttnexit.Location = new System.Drawing.Point(1026, 13);
             this.bttnexit.Name = "bttnexit";
-            this.bttnexit.Size = new System.Drawing.Size(59, 43);
+            this.bttnexit.Size = new System.Drawing.Size(39, 29);
             this.bttnexit.TabIndex = 3;
             this.bttnexit.Click += new System.EventHandler(this.bttnexit_Click);
             // 
@@ -144,10 +139,9 @@
             this.guna2Panel3.Controls.Add(this.ControlsPanel);
             this.guna2Panel3.Controls.Add(this.guna2ShadowPanel2);
             this.guna2Panel3.Controls.Add(this.guna2ShadowPanel1);
-            this.guna2Panel3.Location = new System.Drawing.Point(-5, -6);
-            this.guna2Panel3.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2Panel3.Location = new System.Drawing.Point(-3, -4);
             this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.Size = new System.Drawing.Size(1878, 1020);
+            this.guna2Panel3.Size = new System.Drawing.Size(1252, 680);
             this.guna2Panel3.TabIndex = 1;
             this.guna2Panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel3_Paint);
             // 
@@ -157,10 +151,11 @@
             this.ControlsPanel.BackColor = System.Drawing.Color.Transparent;
             this.ControlsPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.ControlsPanel.FillColor = System.Drawing.Color.White;
-            this.ControlsPanel.Location = new System.Drawing.Point(248, 79);
+            this.ControlsPanel.Location = new System.Drawing.Point(165, 53);
+            this.ControlsPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ControlsPanel.Name = "ControlsPanel";
             this.ControlsPanel.ShadowColor = System.Drawing.Color.Black;
-            this.ControlsPanel.Size = new System.Drawing.Size(1630, 941);
+            this.ControlsPanel.Size = new System.Drawing.Size(1087, 627);
             this.ControlsPanel.TabIndex = 2;
             // 
             // guna2ShadowPanel1
@@ -180,10 +175,9 @@
             this.guna2ShadowPanel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2ShadowPanel1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(217)))), ((int)(((byte)(194)))));
             this.guna2ShadowPanel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2ShadowPanel1.Margin = new System.Windows.Forms.Padding(5);
             this.guna2ShadowPanel1.Name = "guna2ShadowPanel1";
             this.guna2ShadowPanel1.ShadowColor = System.Drawing.Color.Black;
-            this.guna2ShadowPanel1.Size = new System.Drawing.Size(248, 1020);
+            this.guna2ShadowPanel1.Size = new System.Drawing.Size(165, 680);
             this.guna2ShadowPanel1.TabIndex = 0;
             this.guna2ShadowPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2ShadowPanel1_Paint);
             // 
@@ -207,10 +201,9 @@
             this.ReportButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ReportButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.ReportButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.ReportButton.Location = new System.Drawing.Point(17, 794);
-            this.ReportButton.Margin = new System.Windows.Forms.Padding(5);
+            this.ReportButton.Location = new System.Drawing.Point(11, 529);
             this.ReportButton.Name = "ReportButton";
-            this.ReportButton.Size = new System.Drawing.Size(211, 71);
+            this.ReportButton.Size = new System.Drawing.Size(141, 47);
             this.ReportButton.TabIndex = 16;
             this.ReportButton.Text = "Reports";
             this.ReportButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -236,10 +229,9 @@
             this.SettingsButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.SettingsButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.SettingsButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.SettingsButton.Location = new System.Drawing.Point(17, 875);
-            this.SettingsButton.Margin = new System.Windows.Forms.Padding(5);
+            this.SettingsButton.Location = new System.Drawing.Point(11, 583);
             this.SettingsButton.Name = "SettingsButton";
-            this.SettingsButton.Size = new System.Drawing.Size(211, 71);
+            this.SettingsButton.Size = new System.Drawing.Size(141, 47);
             this.SettingsButton.TabIndex = 15;
             this.SettingsButton.Text = "Settings";
             this.SettingsButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -265,10 +257,9 @@
             this.KitchenButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.KitchenButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.KitchenButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.KitchenButton.Location = new System.Drawing.Point(19, 715);
-            this.KitchenButton.Margin = new System.Windows.Forms.Padding(5);
+            this.KitchenButton.Location = new System.Drawing.Point(13, 477);
             this.KitchenButton.Name = "KitchenButton";
-            this.KitchenButton.Size = new System.Drawing.Size(211, 71);
+            this.KitchenButton.Size = new System.Drawing.Size(141, 47);
             this.KitchenButton.TabIndex = 14;
             this.KitchenButton.Text = "Kitchen";
             this.KitchenButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -294,10 +285,9 @@
             this.POSButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.POSButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.POSButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.POSButton.Location = new System.Drawing.Point(19, 636);
-            this.POSButton.Margin = new System.Windows.Forms.Padding(5);
+            this.POSButton.Location = new System.Drawing.Point(13, 424);
             this.POSButton.Name = "POSButton";
-            this.POSButton.Size = new System.Drawing.Size(211, 71);
+            this.POSButton.Size = new System.Drawing.Size(141, 47);
             this.POSButton.TabIndex = 13;
             this.POSButton.Text = "POS";
             this.POSButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -323,10 +313,9 @@
             this.StaffButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.StaffButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.StaffButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.StaffButton.Location = new System.Drawing.Point(24, 557);
-            this.StaffButton.Margin = new System.Windows.Forms.Padding(5);
+            this.StaffButton.Location = new System.Drawing.Point(16, 371);
             this.StaffButton.Name = "StaffButton";
-            this.StaffButton.Size = new System.Drawing.Size(204, 71);
+            this.StaffButton.Size = new System.Drawing.Size(136, 47);
             this.StaffButton.TabIndex = 12;
             this.StaffButton.Text = "Staff";
             this.StaffButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -352,10 +341,9 @@
             this.TableButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.TableButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.TableButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.TableButton.Location = new System.Drawing.Point(24, 478);
-            this.TableButton.Margin = new System.Windows.Forms.Padding(5);
+            this.TableButton.Location = new System.Drawing.Point(16, 319);
             this.TableButton.Name = "TableButton";
-            this.TableButton.Size = new System.Drawing.Size(204, 71);
+            this.TableButton.Size = new System.Drawing.Size(136, 47);
             this.TableButton.TabIndex = 11;
             this.TableButton.Text = "Tables";
             this.TableButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -381,10 +369,9 @@
             this.ProdButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.ProdButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.ProdButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.ProdButton.Location = new System.Drawing.Point(24, 397);
-            this.ProdButton.Margin = new System.Windows.Forms.Padding(5);
+            this.ProdButton.Location = new System.Drawing.Point(16, 265);
             this.ProdButton.Name = "ProdButton";
-            this.ProdButton.Size = new System.Drawing.Size(204, 71);
+            this.ProdButton.Size = new System.Drawing.Size(136, 47);
             this.ProdButton.TabIndex = 10;
             this.ProdButton.Text = "Products";
             this.ProdButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -411,10 +398,9 @@
             this.HomeButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.HomeButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.HomeButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.HomeButton.Location = new System.Drawing.Point(24, 239);
-            this.HomeButton.Margin = new System.Windows.Forms.Padding(5);
+            this.HomeButton.Location = new System.Drawing.Point(16, 159);
             this.HomeButton.Name = "HomeButton";
-            this.HomeButton.Size = new System.Drawing.Size(204, 71);
+            this.HomeButton.Size = new System.Drawing.Size(136, 47);
             this.HomeButton.TabIndex = 2;
             this.HomeButton.Text = "Home";
             this.HomeButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -441,10 +427,9 @@
             this.CategButton.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.CategButton.ImageOffset = new System.Drawing.Point(10, 0);
             this.CategButton.ImageSize = new System.Drawing.Size(25, 25);
-            this.CategButton.Location = new System.Drawing.Point(24, 318);
-            this.CategButton.Margin = new System.Windows.Forms.Padding(5);
+            this.CategButton.Location = new System.Drawing.Point(16, 212);
             this.CategButton.Name = "CategButton";
-            this.CategButton.Size = new System.Drawing.Size(204, 71);
+            this.CategButton.Size = new System.Drawing.Size(136, 47);
             this.CategButton.TabIndex = 3;
             this.CategButton.Text = "Categories";
             this.CategButton.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -455,10 +440,9 @@
             // 
             this.Rstrntmngmnt.Font = new System.Drawing.Font("Poppins SemiBold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rstrntmngmnt.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Rstrntmngmnt.Location = new System.Drawing.Point(4, 187);
-            this.Rstrntmngmnt.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.Rstrntmngmnt.Location = new System.Drawing.Point(3, 125);
             this.Rstrntmngmnt.Name = "Rstrntmngmnt";
-            this.Rstrntmngmnt.Size = new System.Drawing.Size(250, 47);
+            this.Rstrntmngmnt.Size = new System.Drawing.Size(167, 31);
             this.Rstrntmngmnt.TabIndex = 1;
             this.Rstrntmngmnt.Text = "Tummy Time";
             this.Rstrntmngmnt.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -469,10 +453,9 @@
             this.guna2PictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.ErrorImage")));
             this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(18, 5);
-            this.guna2PictureBox1.Margin = new System.Windows.Forms.Padding(5);
+            this.guna2PictureBox1.Location = new System.Drawing.Point(12, 3);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(206, 149);
+            this.guna2PictureBox1.Size = new System.Drawing.Size(137, 99);
             this.guna2PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
@@ -486,14 +469,13 @@
             // 
             // formMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1873, 978);
+            this.ClientSize = new System.Drawing.Size(1249, 652);
             this.Controls.Add(this.guna2Panel3);
             this.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "formMain";
             this.Text = "formMain";
             this.Load += new System.EventHandler(this.formMain_Load);

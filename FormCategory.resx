@@ -117,36 +117,6 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="dgvNo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvVid.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvName.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvedit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvDel.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvSno.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvid.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgname.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgEdit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="dgvdelete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="btnAdd.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -354,4 +324,39 @@
         iIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiGg2Ghj4/wwAunBtaZdFAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="dgvSno.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvid.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvame.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgEdit.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="dgvdelete.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dgvdelete.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
+        AAACZUlEQVRYR81XPWsUURQdFEQ7/QGKH2UgFiqa9zFZxIj5ASlUtLRTgv6BNxshkiKVjaCkN0VMgpVp
+        QsBgsAli5WdnIdioQdAQz525rDP3zb7MkjfggcPCuee8e/fN7NuZZBBMKXXKWbXirP4F7giS9mIqTU+w
+        PS6eTkzsR4O33Owr+EGQtB1n9BvyciweXKou5g2sXnNJso/lHkjLa+SBl+XB4IaGDnSNOeOMueTRmnn+
+        hg9r6zlRy4eEt6aer40e3K4KFE8j/LlYoFV+ctYOc9t/QOG1MLbJDW5bYHZk5BDEbWFqk9vUk9vj23c6
+        h2tM7RI9uX1vB357pva4hQEOcvsCuAnPZ8Zcxd16q212R9U5bvsfAtszi4PkUSvE2tymP2CiY7XuusXg
+        e27THy7V6zXBNZeaa/j8IvQus6x9y1J9HZ8vhY4jWq9zm/6AackLWj2Z16x+VtanjTlCLGvgInsnhU4D
+        LFEtCFyrJ16wN4BaqOh0fnhniFoovDUDGP2YakFggAdeMN4A01QLIkvNPS8YbQB1l2pB4KC46QUjDYCD
+        7gbVgsi0HpdBMNIOmCtUC8JpfdYLRhqAHkioFgSmPCaDYJQB7qfpUaoFwf+MlSAYZYDKM0AIMP8Q4RgD
+        fCe9EWDGc1slHGOAj6Q3AswbIhxhAPOK9EZA4Hk1HGMAtUx6IyAwVw3rjPXVsk6vYfjVnCxr4Cp7M6HP
+        kd4IMM+I8B/wndCI9DpWvJJVSV7KlLUZXn534My+I8J7ZmbVbV5+d/C2bslF9sCfrnPhOC/fDPhbvozg
+        Jii3chBSdjMb1WO8rECS/AXnx76lD5WRPQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="guna2MessageDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
